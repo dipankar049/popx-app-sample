@@ -61,7 +61,10 @@ export default function RegisterPage() {
                 />
 
                 <div className='mt-3'>
-                    <p>Are you an Agency?</p>
+                    <p>
+                        Are you an Agency?
+                        <span className='text-red-500'>*</span>
+                    </p>
                     <label className='flex items-center mt-1'>
                         <input
                             type="radio" 
